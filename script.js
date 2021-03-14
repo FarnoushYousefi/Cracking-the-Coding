@@ -3,7 +3,7 @@ console.log('hiii');
 let isUnique = (s) =>{
     let hash={};
 
-    for (let i=0; i<s.lenght;i++){
+    for (let i=0; i<s.length;i++){
         let c=s[i];
         if (hash[c]){
             return false;
@@ -14,6 +14,6 @@ let isUnique = (s) =>{
   return true;
 };
 
-console.log(isUnique('farnoush'));
+console.log(isUnique('farnoush')==true);
 
 console.log(isUnique('llll'));
