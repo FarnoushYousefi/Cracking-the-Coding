@@ -7,7 +7,7 @@ function sumZero(arr){
             return [arr[left],arr[right]];
         } else if (sum>0){
             right--;
-        }elde{
+        }else{
             left++;
         }
     }
