@@ -10,5 +10,5 @@ function productOfArray (arr){
        
         
     }
-    console
+    console.log("Hi");
 }
